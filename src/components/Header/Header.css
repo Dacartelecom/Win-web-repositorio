@@ -1,0 +1,49 @@
+.Header-content{
+  width: 100%;
+}
+.Header-content{
+  display: flex;
+  justify-content: space-between;
+}
+.Logo-header img{
+  width: 11em;
+}
+.number-header{
+  float: right;
+  color: #301D19;
+}
+.number-header ul{
+  list-style: none;
+}
+.number-header ul li{
+  font-size: 4em;
+  font-weight: bold;
+}
+.number-header ul li h2{
+  font-size: 0.5em;
+  margin: 0.7em 0.1em;
+}
+.number-header a{
+  text-decoration: none;
+  color: #301D19;
+}
+
+@media (max-width: 768px) {
+  .Header-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Logo-header img {
+    width: 15rem;
+  }
+
+  .number-header {
+    float: none;
+    text-align: center;
+  }
+
+  .number-header ul li {
+    font-size: 2rem;
+  }
+}

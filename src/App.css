@@ -1,0 +1,19 @@
+.App{
+  width: 100%;
+  margin: auto;
+}
+.Container-Page{
+  width: 80%;
+  margin: auto;
+}
+hr{
+  font-weight: bold;
+  margin: 4px 0;
+}
+.shadow{
+  display: none;
+}
+
+.error-message{
+  color: red;
+}

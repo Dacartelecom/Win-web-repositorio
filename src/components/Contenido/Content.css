@@ -1,0 +1,42 @@
+.Content-form{
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 1rem;
+  font-size: 3rem;
+}
+.Content-form h2{
+  margin-bottom: 3rem;
+  color: #FF5A0A;
+}
+
+.Content-form h3{
+  margin-bottom: 2rem;
+  color: #301D19;
+}
+
+.Content-form p{
+  font-size: 1.5rem;
+  color: #301D19;
+
+}
+@media (max-width: 768px) {
+  .Content-form {
+    font-size: 2rem;
+  }
+
+  .Content-form h2 {
+    margin-bottom: 2rem;
+    line-height: 48px;
+  }
+
+  .Content-form h3 {
+    margin-bottom: 0.5rem;
+    font-size: 2.2rem;
+    line-height: 48px;
+  }
+
+  .Content-form p {
+    font-size: 1.2rem;
+  }
+}

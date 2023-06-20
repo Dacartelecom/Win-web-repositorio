@@ -1,0 +1,21 @@
+.Showcase{
+  margin-bottom: 20px;
+  width: 100%;
+  float: left;
+  height: 100%;
+}
+
+.ShowcaseMobile{
+  display: none;
+}
+@media (max-width: 768px) {
+  .Showcase{
+    display: none;
+  }
+
+  .ShowcaseMobile{
+    display: block;
+    height: 40rem;
+    margin: 1rem auto;
+  }
+}

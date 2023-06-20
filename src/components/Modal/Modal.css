@@ -1,0 +1,62 @@
+.Modal{
+    text-align: center;
+    margin-top: 7%;
+    width: 40%;
+  color: #301D19;
+}
+
+.Titulo-mod{
+    font-size: 2.8rem;
+    margin-bottom: 30px;
+    color: #FF5A0A;
+  transition: transform 0.3s ease;
+
+}
+.Titulo-mod a{
+  text-decoration: none;
+  color: #301D19;
+  transition: transform 0.3s ease;
+}
+.Titulo-mod:hover{
+  transform: translateY(-10px);
+  cursor: pointer;
+}
+.Titulo-mod a:hover{
+  color: #FF5A0A;
+  
+}
+.contrata-mod{
+  font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.text-box-mod input{
+    border: none;
+    outline: none;
+    text-align: center;
+    color: black;
+    margin-bottom: 30px;  
+    border: 2px solid #FF5A0A;
+    width: 70%;
+    height: 2rem;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.Mensaje-Error-modal{
+  margin: 10px auto;
+}
+@media (max-width: 768px) {
+  .Modal{
+    text-align: center;
+    margin-top: 43%;
+    width: 80%;
+  color: #301D19;
+}
+.Titulo-mod{
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #FF5A0A;
+transition: transform 0.3s ease;
+}
+}

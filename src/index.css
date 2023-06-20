@@ -1,0 +1,29 @@
+@font-face {
+  font-family: MADEtomyBold;
+  src: url(../src/fonts/WinBold.otf);
+}
+
+@font-face {
+  font-family: MADEtomy;
+  src: url(../src/fonts/WinRegular.otf);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+
+}
+:root {
+  font-family: 'MADEtomy';
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  font-weight: bolder;
+  
+  background-color: #f3f3f3;
+  
+}
+
+
