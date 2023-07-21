@@ -22,7 +22,7 @@ export default function Header({number}) {
             <li><h2>Llamanos al</h2></li>
             <li style={{ height: '39px' }}><a href={`tel:${number}`}>{number}</a></li>
           </ul>
-          <span className='help' onClick={ open }>Necesitas Ayuda Haz Click Aquí</span>
+          <span className='help' onClick={ open }>ATENCIÓN AL CLIENTE Y/O RECLAMOS, HAZ CLIC AQUÍ</span>
         </div>
       </div>
       <Modal className='Modal' open={ openModal } onClose={ close }>
