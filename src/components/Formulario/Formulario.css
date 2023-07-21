@@ -9,8 +9,9 @@
   box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.568);
   border-radius: 10px;
   z-index: 2;
-  right: 2em;
-  top: 15rem;
+  right: 64px;
+  top: 55%;
+  transform: translateY(-50%);
   animation: rebote 1s ease-in-out;
   width: 19em;
 }
