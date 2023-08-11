@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { useState } from 'react'
 import './Planes.css'
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -66,6 +67,7 @@ export default function TrioGamer({
                   {/*--------TRIO WIN--------*/}
                   {PlanTrioGamer.map((item,index)=>{
                     return(
+                      // eslint-disable-next-line react/jsx-key
                       <SwiperSlide>
                         <PlanBox key={index}
 
@@ -129,6 +131,7 @@ export default function TrioGamer({
                   {/*--------TRIO WIN--------*/}
                   {PlanTrioGamerGoBasico.map((item,index)=>{
                     return(
+                      // eslint-disable-next-line react/jsx-key
                       <SwiperSlide>
                         <PlanBoxGo key={index}
 
@@ -148,6 +151,7 @@ export default function TrioGamer({
                         Promo={item.Promo}
                         tiempoPromo={item.tiempoPromo}
                         Precio={item.Precio}
+                        duracionPromo={item.duracionPromo}
                         Mesh={item.Mesh}
                         img1Cl1={item.img1Cl1}
                         txt1Cl1={item.txt1Cl1}
@@ -190,6 +194,7 @@ export default function TrioGamer({
                       {/*--------TRIO + DGO FULL--------*/}
                     {PlanTrioGamerGoFull.map((item,index)=>{
                       return(
+                      // eslint-disable-next-line react/jsx-key
                       <SwiperSlide>
                       <PlanBoxGo key={index}
                       /*--------Funcionalidades--------*/
@@ -205,6 +210,7 @@ export default function TrioGamer({
                       Promo={item.Promo}
                       tiempoPromo={item.tiempoPromo}
                       Precio={item.Precio}
+                      duracionPromo={item.duracionPromo}
                       img1Cl1={item.img1Cl1}
                       txt1Cl1={item.txt1Cl1}
                       img2Cl1={item.img2Cl1}
@@ -252,6 +258,7 @@ export default function TrioGamer({
               {/*--------TRIO WIN--------*/}
               {PlanTrioGamer.map((item,index)=>{
                     return(
+                      // eslint-disable-next-line react/jsx-key
                       <SwiperSlide>
                         <PlanBox key={index}
 
@@ -273,6 +280,7 @@ export default function TrioGamer({
                         Promo={item.Promo}
                         tiempoPromo={item.tiempoPromo}
                         Precio={item.Precio}
+                        duracionPromo={item.duracionPromo}
                         Mesh={item.Mesh}
                         img1Cl1={item.img1Cl1}
                         txt1Cl1={item.txt1Cl1}
@@ -317,6 +325,7 @@ export default function TrioGamer({
               {/*--------TRIO WIN--------*/}
               {PlanTrioGamerGoBasico.map((item,index)=>{
                     return(
+                      // eslint-disable-next-line react/jsx-key
                       <SwiperSlide>
                         <PlanBoxGo key={index}
 
@@ -338,6 +347,7 @@ export default function TrioGamer({
                         Promo={item.Promo}
                         tiempoPromo={item.tiempoPromo}
                         Precio={item.Precio}
+                        duracionPromo={item.duracionPromo}
                         Mesh={item.Mesh}
                         img1Cl1={item.img1Cl1}
                         txt1Cl1={item.txt1Cl1}
@@ -381,6 +391,7 @@ export default function TrioGamer({
                   {/*--------TRIO + DGO FULL--------*/}
                   {PlanTrioGamerGoFull.map((item,index)=>{
                       return(
+                      // eslint-disable-next-line react/jsx-key
                       <SwiperSlide>
                       <PlanBoxGo key={index}
                       /*--------Funcionalidades--------*/
@@ -398,6 +409,7 @@ export default function TrioGamer({
                       Promo={item.Promo}
                       tiempoPromo={item.tiempoPromo}
                       Precio={item.Precio}
+                      duracionPromo={item.duracionPromo}
                       Mesh={item.Mesh}
                       img1Cl1={item.img1Cl1}
                       txt1Cl1={item.txt1Cl1}

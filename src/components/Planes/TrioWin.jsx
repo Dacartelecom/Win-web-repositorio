@@ -1,9 +1,12 @@
+/* eslint-disable no-undef */
+/* eslint-disable react/prop-types */
+/* eslint-disable no-unused-vars */
+/* eslint-disable react/jsx-key */
 import React, { useState } from 'react'
-import Box from '../Box/Box'
 import './Planes.css'
 import { Swiper, SwiperSlide } from "swiper/react";
 import { FreeMode, Navigation, Pagination } from "swiper";
-import { TrioWinItems,DouGoBasico,DouGoFull } from './PlanesArr'
+import { TrioWinItems,TrioGoBasico,TrioGoFull } from './PlanesArr'
 
 // Import Swiper styles
 import "swiper/css";
@@ -61,6 +64,7 @@ export default function TrioWin({onChange,number,onsubmit,error,pincipalNumber})
         >
         {TrioWinItems.map((item,index)=>{
           return(
+            // eslint-disable-next-line react/jsx-key
             <SwiperSlide>
             <PlanBox key={index}
             /*--------Funcionalidades--------*/
@@ -119,9 +123,10 @@ export default function TrioWin({onChange,number,onsubmit,error,pincipalNumber})
                   className="mySwiper"
             >
 
-              {/*--------Duo Go Básico--------*/}
-              {DouGoBasico.map((item,index)=>{
+              {/*--------Trio Go Básico--------*/}
+              {TrioGoBasico.map((item,index)=>{
                 return(
+                  // eslint-disable-next-line react/jsx-key
                   <SwiperSlide>
                     <PlanBoxGo key={index}
                      /*--------Funcionalidades--------*/
@@ -180,8 +185,9 @@ export default function TrioWin({onChange,number,onsubmit,error,pincipalNumber})
                   className="mySwiper"
             >
               {/*--------Duo TRIO DGO full--------*/}
-              {DouGoFull.map((item,index)=>{
+              {TrioGoFull.map((item,index)=>{
                 return(
+                  // eslint-disable-next-line react/jsx-key
                   <SwiperSlide>
                     <PlanBoxGo key={index}
                     onChange={onChange} 
@@ -306,7 +312,7 @@ export default function TrioWin({onChange,number,onsubmit,error,pincipalNumber})
 
               {/*--------Duo Go Básico--------*/}
 
-              {DouGoBasico.map((item,index)=>{
+              {TrioGoBasico.map((item,index)=>{
           return(
             <SwiperSlide>
             <PlanBox key={index}
@@ -368,7 +374,7 @@ export default function TrioWin({onChange,number,onsubmit,error,pincipalNumber})
             >
               {/*--------Duo TRIO DGO full--------*/}
 
-              {DouGoFull.map((item,index)=>{
+              {TrioGoFull.map((item,index)=>{
                 return(
                   <SwiperSlide>
                     <PlanBoxGo key={index}

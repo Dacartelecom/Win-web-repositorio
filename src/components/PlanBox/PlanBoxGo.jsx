@@ -1,4 +1,4 @@
-import React from "react";
+/* eslint-disable react/prop-types */
 import "./PlanBox.css";
 import { AddCircle } from "iconsax-react";
 import imgGo from "../../img/DgoLogo.png";
@@ -36,7 +36,8 @@ export default function PlanBoxGo({
   img2Cl3,
   txt2Cl3,
   img3Cl3,
-  txt3Cl3
+  txt3Cl3,
+  duracionPromo
 }) {
   return (
     <div className="Box-ContainerGo" key={key}>
@@ -64,8 +65,11 @@ export default function PlanBoxGo({
           <li className="Box-PromoGo">
             <p>{Promo}</p>
           </li>
-          <li className="Box-PrecioGo">
+          <li className="duracion-precio">
             <p>{tiempoPromo}</p>
+          </li>          
+          <li className="Box-PrecioGo">
+            <p>{duracionPromo}</p>
           </li>
           <li className="Box-PrecioGo">
             <p>{Precio}</p>

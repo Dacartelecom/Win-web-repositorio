@@ -13,7 +13,6 @@
 }
 .number-header-footer{
   font-size: 3rem;
-  float: right;
 }
 .number-header-footer ul{
   list-style: none;
@@ -21,6 +20,7 @@
 }
 .number-header-footer li{
   margin-top: 35px;
+  text-align: center;
 }
 .number-header-footer a{
   text-decoration: none;
@@ -35,19 +35,56 @@
   text-align: center;
   color: white;
 }
+
+.condiciones-footer ul{
+  list-style: none;
+  color: white;
+  
+}
+
+.terminos-condiciones{
+  cursor: pointer;
+}
+.body-condiciones{
+  text-align: justify;
+}
+.title-condiciones{
+  margin: 10px auto ;
+  color: #FF5A0A;
+  text-align: center;
+}
+.sub-tittle-condiciones{
+  margin: 10px auto ;
+  color: #FF5A0A;
+  font-size: 20px;
+}
+
+
 @media (max-width: 768px) {
   .footer-links{
-    display: flex;
+    display: block;
     width: 80%;
+    align-items: center;
+  }
+  .Logo-header-footer{
+    width: 50%;
+    margin: 1em auto;
   }
   .number-header-footer{
-    font-size: 1rem;
+    font-size: 2rem;
+    margin: 1em auto;
   }
   .number-header-footer li{
-    margin-top: 0.5rem;
+    margin-top: 2rem;
   }
-  .Logo-header-footer img{
-    width: 9rem;
+  .title-condiciones{
+    font-size: 1em;
+  }
+  .sub-tittle-condiciones{
+    font-size: 1em;
+  }
+  .body-condiciones{
+    font-size: 0.9em;
   }
 }
 

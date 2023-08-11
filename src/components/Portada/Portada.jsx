@@ -1,11 +1,13 @@
-import WinPortada from '../../img/WinPortada.jpg';
-import WinPortada2 from '../../img/WinPortada2.jpg';
-import WinPortada3 from '../../img/WinPortada3.jpg';
-import WinPortada4 from '../../img/WinPortada4.jpg';
-import WinPortadaCel from '../../img/WinPortadaCel.jpg';
-import WinPortadaCel2 from '../../img/WinPortadaCel2.jpg';
-import WinPortadaCel3 from '../../img/WinPortadaCel3.jpg';
-import WinPortadaCel4 from '../../img/WinPortadaCel4.jpg';
+import WinPortada from '../../img/WinPortada.webp';
+import WinPortada1 from '../../img/WinPortada1.webp';
+import WinPortada2 from '../../img/WinPortada2.webp';
+import WinPortada3 from '../../img/WinPortada3.webp';
+import WinPortada4 from '../../img/WinPortada4.webp';
+import WinPortadaCel from '../../img/WinPortadaCel.webp';
+import WinPortadaCel1 from '../../img/WinPortadaCel1.webp';
+import WinPortadaCel2 from '../../img/WinPortadaCel2.webp';
+import WinPortadaCel3 from '../../img/WinPortadaCel3.webp';
+import WinPortadaCel4 from '../../img/WinPortadaCel4.webp';
 import Carousel from '../Carousel/Carousel';
 // import 'rsuite/dist/rsuite-no-reset.min.css';
 // import { Carousel } from 'rsuite';
@@ -16,7 +18,7 @@ const OPTIONS = {
   slidesToScroll: 'auto',
   containScroll: 'trimSnaps'
 };
-const SLIDE_COUNT = 4;
+const SLIDE_COUNT = 5;
 const SLIDES = Array.from(Array(SLIDE_COUNT).keys());
 const STYLES_MOBILE = {
   height: '640px'
@@ -30,6 +32,7 @@ const STYLES_DESKTOP = {
 
 const imagesDesktop = [
   WinPortada,
+  WinPortada1,
   WinPortada2,
   WinPortada3,
   WinPortada4,
@@ -37,6 +40,7 @@ const imagesDesktop = [
 
 const imagesMobile = [
   WinPortadaCel,
+  WinPortadaCel1,
   WinPortadaCel2,
   WinPortadaCel3,
   WinPortadaCel4,
